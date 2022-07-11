@@ -31,4 +31,6 @@ const ReactionSchema = new mongoose.Schema({
     }
 })
 
-module.exports = Reaction;
+
+
+module.exports = mongoose.model('Reaction', ReactionSchema);
